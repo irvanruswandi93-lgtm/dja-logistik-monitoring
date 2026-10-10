@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monitoring Part - DJA Logistik</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Data Pengiriman Part Lion Group</h2>
+        <div id="loading">Memuat data dari server...</div>
+        <table id="dataTable" border="1" style="display:none; width: 100%; text-align: left; border-collapse: collapse;">
+            <thead>
+                <tr>
+                    <th>Pesawat (AC REG)</th>
+                    <th>No. Part (PN)</th>
+                    <th>Stasiun Asal</th>
+                    <th>Stasiun Tujuan</th>
+                    <th>Status Received</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
