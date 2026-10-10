@@ -1,4 +1,4 @@
-const API_URL = '1TdN2Taj0HxvtM-02_qi_3mee2R9vvkFJaOkQ65x6IGU';
+const API_URL = 'https://script.google.com/macros/s/AKfycbytuQDMroHhwsq3OJPALOlKGNOACBEbweRfl-eW6e5pEc-d9tnvnOIzllygcta4-fzuhA/exec';
 
 async function fetchDataLogistik() {
     try {
